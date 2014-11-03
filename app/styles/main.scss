@@ -1,0 +1,23 @@
+$icon-font-path: "/styles/fonts/";
+
+$brand-primary: #009bcb !default;
+$brand-secondary: #012e3d !default;
+
+$nav-link-hover-bg: #fff !default;
+$nav-pills-border-radius: 4px !default;
+$nav-pills-active-link-hover-color: #fff !default;
+$nav-pills-active-link-hover-bg: $brand-primary !default;
+
+$font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif !default;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+// endbower
+
+@import "surfy/utilities";
+@import "surfy/navs";
+@import "surfy/sprites";
+@import "surfy/thumbnails";
+@import "surfy/layout";
+

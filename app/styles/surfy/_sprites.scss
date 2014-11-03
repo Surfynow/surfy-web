@@ -1,0 +1,69 @@
+@import "bg/*.png";
+
+@include all-bg-sprites;
+
+.bg-sprite {
+  display: inline-block;
+  height: bg-sprite-height(people);
+  width: bg-sprite-width(people);
+}
+
+.bg-globe {
+  width: 200px;
+  height: 100px;
+}
+
+.bg-hiw-1 {
+  height: bg-sprite-height(hiw-1);
+  width: bg-sprite-width(hiw-1);
+}
+
+.bg-hiw-2 {
+  height: bg-sprite-height(hiw-2);
+  width: bg-sprite-width(hiw-2);
+}
+
+.bg-hiw-3 {
+  height: bg-sprite-height(hiw-3);
+  width: bg-sprite-width(hiw-3);
+}
+
+.bg-i-chrome {
+  height: bg-sprite-height(i-chrome);
+  width: bg-sprite-width(i-chrome);
+}
+
+.bg-i-firefox {
+  height: bg-sprite-height(i-firefox);
+  width: bg-sprite-width(i-firefox);
+}
+
+.bg-i-safari {
+  height: bg-sprite-height(i-safari);
+  width: bg-sprite-width(i-safari);
+}
+
+.bg-a-male {
+  height: bg-sprite-height(a-male);
+  width: bg-sprite-width(a-male);
+}
+
+.bg-a-female {
+  height: bg-sprite-height(a-female);
+  width: bg-sprite-width(a-female);
+}
+
+.bg-s-facebook {
+  height: bg-sprite-height(s-facebook);
+  width: bg-sprite-width(s-facebook);
+}
+
+.bg-s-twitter {
+  height: bg-sprite-height(s-twitter);
+  width: bg-sprite-width(s-twitter);
+}
+
+.bg-s-google-p {
+  height: bg-sprite-height(s-google-p);
+  width: bg-sprite-width(s-google-p);
+}

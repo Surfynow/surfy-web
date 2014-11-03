@@ -1,0 +1,221 @@
+.browsehappy {
+  margin: 0;
+  background: #ccc;
+  color: #000;
+  padding: 0;
+}
+
+body {
+}
+
+.header,
+.section,
+.marketing,
+.footer {
+}
+
+.header {
+  background: $brand-primary;
+}
+
+.footer {
+
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+.marketing {
+  background: $brand-primary url("../images/bg/people-bg.png") repeat-x 0 60px;
+
+  .col-md-6 {
+    height: 260px;
+    position: relative;
+
+    .bg-people, .bg-globe {
+      position: absolute;
+      bottom: -1px;
+    }
+
+    .bg-people {
+      left: 30px;
+    }
+
+    .bg-globe {
+      right: 30px;
+    }
+  }
+
+  .message {
+    position: relative;
+    font-size: 100px;
+    color: #fff;
+    left: -100px;
+    top: 50px;
+
+    h1 {
+      margin: 5px 0 0 0;
+    }
+  }
+}
+
+.search-bar {
+  position: absolute;
+  width: 100%;
+  top: 260px;
+
+  input, button {
+    background: none;
+    border: none;
+  }
+
+  input {
+    font-size: 1.6em;
+    width: 100%;
+    height: 100%;
+  }
+
+  button {
+    background: $brand-secondary;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+    margin: 3px 0 3px 6px;
+    height: 38px;
+    padding: 0 14px;
+  }
+
+  .container {
+    @include box-shadow(0 0px 10px rgba(0, 0, 0, .2));
+  }
+
+  .keyword, .button {
+    background: rgba(255, 255, 255, 0.95);
+    height: 45px;
+    border: 1px solid $brand-secondary;
+  }
+
+  .keyword {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+  }
+
+  .button {
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+.header {
+  .logo {
+    margin-top: 5px;
+  }
+}
+
+.footer {
+  background: black;
+
+  .container {
+    padding: 20px 0;
+
+    .right {
+      text-align: right;
+    }
+  }
+
+  .col-md-6 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.jumbotron {
+  border-bottom: 0;
+}
+
+.section {
+  padding: 10px 0;
+}
+
+.hiw {
+  .thumbnail {
+    border-radius: 6px;
+    min-height: 313px;
+
+    > div {
+      margin: 10px 0 4px 10px;
+    }
+
+    .caption {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}
+
+.download {
+  .col-md-4 {
+    h5 {
+      margin-bottom: 0;
+    }
+
+    padding: 30px 0 50px 0;
+  }
+}
+
+.contributors {
+  .col-md-4 {
+    h3 {
+      margin: 5px 0 0 0;
+    }
+
+    h4 {
+      margin-top: 5px;
+    }
+
+    padding: 30px 0 30px 20px;
+  }
+  .col-md-7 {
+    padding: 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header,
+  .marketing,
+  .section,
+  .footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    &.secondary {
+      background-color: $brand-secondary;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    &.primary {
+      background-color: $brand-primary;
+      color: $brand-secondary;
+
+    }
+  }
+}

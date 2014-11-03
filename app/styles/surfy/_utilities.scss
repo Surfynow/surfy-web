@@ -1,0 +1,15 @@
+.primary {
+  color: $brand-primary;
+}
+
+.space-r-10 {
+  margin-right: 10px;
+}
+
+.space-r-20 {
+  margin-right: 20px;
+}
+
+.space-r {
+  @extend .space-r-10;
+}

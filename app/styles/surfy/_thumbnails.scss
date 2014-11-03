@@ -1,0 +1,13 @@
+.dark {
+  background-color: $brand-secondary;
+  border: none;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: white;
+  @include box-shadow(0 1px 15px rgba(0,0,0,.2));
+  border-radius: 50px;
+  padding: 0;
+}

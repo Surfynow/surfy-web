@@ -1,0 +1,52 @@
+.nav {
+  > li {
+    > a {
+      &:hover,
+      &:focus {
+        color: $brand-secondary;
+      }
+    }
+  }
+}
+
+.nav-pills {
+  > li {
+    float: left;
+
+    // Links rendered as pills
+    > a {
+      color: #fff;
+      border-radius: $nav-pills-border-radius;
+    }
+    + li, &.active {
+      margin: 10px 0 10px 25px;
+    }
+
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.nav-right {
+  > li {
+    + li {
+      margin-left: 10px;
+    }
+
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: #fff;
+        background-color: $brand-secondary;
+      }
+    }
+  }
+}
